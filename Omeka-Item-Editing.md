@@ -1,4 +1,4 @@
-Linking to a SobekCM package image in an Omeka item.
+Linking to an existing SobekCM package image in an Omeka item.
 
 1. Create a new item.
 2. Enter a title in the Title field.
