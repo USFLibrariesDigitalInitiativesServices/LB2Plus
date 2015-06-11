@@ -7,3 +7,5 @@ Linking to a SobekCM package image in an Omeka item.
 5. Follow normal Omeka exhibit development procedures to create exhibit pages and add items to those pages.
 
 The Lightbox2Plus plugin will see the specially coded identifier in the item.
+
+Note: How you code the identifer in the Identifier field assumes you add a [local, independent of your SobekCM instance] digital object identifier. This is how your SobekCM packageid is retreived via retrieving results from http://your.sobeckcm.webiste/xml/results/?t=
