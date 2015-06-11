@@ -22,6 +22,8 @@ Installation notes:
 3. Of the /omeka/themes/default/common/lightbox/js/ js files, all are original (v2.05) except the modified lightbox.js file.
 5. Of the /omeka/themes/default/common/lightbox/images/ image files, all are original (v2.05) except the addition of the 'rrbLB2plus' image files.
 6. Your web server must support the XSL module for using XSLTProcessor (http://php.net/manual/en/book.xsl.php) and the DOM (enabled by default).
+7. The DC2MARC21slim.xsl is an unmodified copy of the standard xsl file from the Library of Congress (LC) release.
+8. The getMetadataService.xsl is a slightly modified version of the standard MARC21slim2English.xsl file from the LC release.
 
 Exhibit/theme - LB2Plus configuration options:
 
