@@ -5,7 +5,7 @@ Lightbox2 created by Lokesh Dhakar (lokeshdhakar.com, twitter.com/lokesh). Licen
 
 Based on Lightbox2 version 2.05 (2011-03-18).
 
-SobekCM - SobekCM Digital Repository and builder - "This software was developed at the George A. Smathers Library at the University of Florida by a team lead by Mark Sullivan, with ongoing effort spanning several departments.". https://github.com/MarkVSullivan/SobekCM-Web-Application. http://www.sobekrepository.org/
+SobekCM - SobekCM Digital Repository and builder - "This software was developed at the George A. Smathers Library at the University of Florida by a team lead by Mark Sullivan, with ongoing effort spanning several departments." https://github.com/MarkVSullivan/SobekCM-Web-Application. http://www.sobekrepository.org/
 
 Our organization is currently running LB2Plus against our version 4.8.10b SobekCM instance (http://digital.lib.usf.edu/). Our Omeka website is at http://exhibits.lib.usf.edu/
 
