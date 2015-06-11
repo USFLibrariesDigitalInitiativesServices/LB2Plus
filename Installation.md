@@ -7,17 +7,21 @@ Installation steps:
 3. Copy the lightbox2Plus-config.js file into the root of [yourtheme] folder.
 4. Copy the omeka/themes/default/css/lightbox.css file into the [yourtheme]/css/ folder.
 5. Copy the /php/getMetadataFromOmekaDC.php file into a folder outside of your [omekawebdir].
+6. Copy the /xsl/ files to a folder outside of your [omekawebdir].
+7. Edit the [folder used in #5 & #6]/getMetadataFromOmekaDC.php file and update the xsl URLs and URL pointing to your Omeka installation.
 6. Copy the /omeka/dcs.php file into your [omekawebdir] folder.
+7. Edit the [omekawebdir]/dcs.php file and update the required url variable for getMetadataFromOmekaDC. Also update the url variable pointing to your SobekCM website. Update the email addresses in the debug mail statements.
 7. Edit the [omekawebdir]/themes/default/common/lightbox/js/lightbox.js file and update the URL for the getMetadataFromOmekaDC.php file to where you will be serving it from (outside of your [omekawebdir]).
-8. Edit the [omekawebdir]//themes/default/common/lightbox/js/lightbox.js file and update the various URLs to point to your SobekCM instance.
+8. Edit the [omekawebdir]/themes/default/common/lightbox/js/lightbox.js file and update the various URLs to point to your SobekCM instance.
+9. Yes, it would have been better to not hard-code the URLs and expand use of the configuration file. Perhaps a later release.
 
 Installation notes:
 
 1. The URL slug for the exhibit and theme MUST be the same.
 2. To reduce duplication the Lightbox2Plus installation should be in the default theme and each new theme will point to it.
-3. Subsequently for each new theme you will modify the common/header.php to point to lightbox.css and lightbox files (js and images).
-4. Of the /omeka/themes/default/common/lightbox/js/ js files, all are original (v2.05) except the modified lightbox.js file.
+3. Of the /omeka/themes/default/common/lightbox/js/ js files, all are original (v2.05) except the modified lightbox.js file.
 5. Of the /omeka/themes/default/common/lightbox/images/ image files, all are original (v2.05) except the addition of the 'rrbLB2plus' image files.
+6. Your web server must support the XSL module for using XSLTProcessor (http://php.net/manual/en/book.xsl.php) and the DOM (enabled by default).
 
 Exhibit/theme - LB2Plus configuration options:
 
