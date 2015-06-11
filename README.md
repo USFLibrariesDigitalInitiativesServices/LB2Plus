@@ -3,7 +3,11 @@ LB2Plus provides integration between Omeka and SobekCM via an enhanced version o
 
 Lightbox2 created by Lokesh Dhakar (lokeshdhakar.com, twitter.com/lokesh). Licensed under the Creative Commons Attribution 2.5 License. https://githumb.com/lokesh/lightbox2.
 
+Based on Lightbox2 version 2.05 (2011-03-18).
+
 SobekCM - SobekCM Digital Repository and builder, originally created by Mark Sullivan at UF. https://github.com/MarkVSullivan/SobekCM-Web-Application. http://www.sobekrepository.org/
+
+We are currently running it against our SobekCM instance, version 4.8.10b.
 
 LB2Plus and supporting components created by Richard R. Bernardy, Jr. @ USF Libraries/Tampa Library/Digital Initiatives & Services. rbernard@usf.edu.
 
