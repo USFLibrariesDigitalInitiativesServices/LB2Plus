@@ -1,7 +1,7 @@
 # LB2Plus
 LB2Plus provides integration between Omeka and SobekCM via an enhanced version of Lightbox2 and includes other support components.
 
-Lightbox2 created by Lokesh Dhakar (lokeshdhakar.com, twitter.com/lokesh). Licensed under the Creative Commons Attribution 2.5 License. https://githumb.com/lokesh/lightbox2.
+Lightbox2 created by Lokesh Dhakar (lokeshdhakar.com, twitter.com/lokesh). Licensed under the Creative Commons Attribution 2.5 License. https://github.com/lokesh/lightbox2.
 
 LB2Plus is based on Lightbox2 version 2.05 (2011-03-18).
 
