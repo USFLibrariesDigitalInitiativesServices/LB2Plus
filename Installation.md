@@ -13,7 +13,7 @@ Installation steps:
 7. Edit the [omekawebdir]/dcs.php file and update the required url variable for getMetadataFromOmekaDC. Also update the url variable pointing to your SobekCM website. Update the email addresses in the debug mail statements.
 7. Edit the [omekawebdir]/themes/default/common/lightbox/js/lightbox.js file and update the URL for the getMetadataFromOmekaDC.php file to where you will be serving it from (outside of your [omekawebdir]).
 8. Edit the [omekawebdir]/themes/default/common/lightbox/js/lightbox.js file and update the various URLs to point to your SobekCM instance.
-9. Yes, it would have been better to not hard-code the URLs and expand use of the configuration file. Perhaps a later release.
+9. Original URLs left in place to provide context. Yes, it would have been better to not hard-code the URLs and expand use of the configuration file. Perhaps in a later release.
 
 Installation notes:
 
